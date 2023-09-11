@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg, #82a7ef, #d273ea);
+}
+.container{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+}
+.notes-app{
+    width:100%;
+    max-width: 540px;
+    padding: 30px 20px 50px;
+    border-radius: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+}
+/*if position: relative; not set in parent
+ div then button will go outside the div*/
+header button{
+    position: absolute;
+    right: 10px;
+    top: 20%;
+    margin-right: 10px;
+    padding: 7px;
+    border-radius: 12px;
+    border-style: none;
+    font-size: 12px;
+    color: #fff;
+    background-color: rgb(128, 8, 207);
+    cursor: pointer;
+}
+header button img{
+    width: 15px;
+    height: 15px;
+}
+header img{
+    width: 30px;
+    height: 30px;
+}
+
+.input-box{
+    font-size: 14px;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 5px;
+    min-height: 100px;
+    border-style: none;
+    max-width: 500px;
+    color: #333;
+    padding: 5px;
+}
+
+.input-box img{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    width: 15px;
+    height: 15px;
+    border-style: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.delete{
+    padding: 7px;
+    border-radius: 12px;
+    border-style: none;
+    font-size: 12px;
+    color: #fff;
+    background-color: rgb(128, 8, 207);
+    cursor: pointer;
+}
